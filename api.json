@@ -1,0 +1,17 @@
+GET :: http://localhost:8800/api/institute-types
+
+GET :: http://localhost:8800/api/institute
+
+GET :: http://localhost:8800/api/exam?instituteId=<instituteId>
+
+GET :: http://localhost:8800/api/boards?instituteTypeId=<instituteTypeId>
+
+GET :: http://localhost:8800/api/class-categories?instituteTypeId=<instituteTypeId>
+
+GET :: http://localhost:8800/api/standards?classCategoryId=<classCategoryId>
+
+GET :: http://localhost:8800/api/subjects?standardId=<standardId>
+
+GET :: http://localhost:8800/api/degrees
+
+POST :: http://localhost:8800/api/register
